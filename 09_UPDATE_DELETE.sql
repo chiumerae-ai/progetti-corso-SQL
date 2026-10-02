@@ -10,3 +10,9 @@ WHERE StudenteId = 1;
 UPDATE Studenti
 SET Nome = 'katya'
 WHERE StudenteId = 1;
+
+/* update Studenti
+	SET Nome = 'Mario',
+		Cognome = 'Rossi',
+		Email = 'm.rossi@software.it'
+	WHERE Codicefiscale =
