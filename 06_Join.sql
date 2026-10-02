@@ -271,3 +271,4 @@ JOIN Aule a
     ON l.AulaId = a.AulaId
 WHERE s.Data_Nascita IS NULL
 GROUP BY s.Nome, s.Cognome, s.Data_Nascita, s.CodiceFiscale, c.NomeCorso, d.Nome, d.Cognome, a.NomeAula;
+
